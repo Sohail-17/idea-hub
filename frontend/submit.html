@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Idea - Idea Hub</title>
+    <link rel="stylsheet" href="style.css">
+</head>
+<body>
+    <h1>Submit Idea Page (phase1)</h1>
+    <form action="/submit" method="POST">
+        <input type="text" name="title" placeholder="Idea Title" required><br>
+        <textarea name="content" placeholder="Desrcibe your idea" required></textarea><br>
+        <input type="hidden" name="userId" value="1">
+        <button type="submit">Submit</button>
+    </form>
+    <nav>
+         <a href="index.html">Home</a>
+        <a href="signup.html">Signup</a>
+        <a href="submit.html">Submit Idea</a>
+    </nav>
+</body>
+</html>

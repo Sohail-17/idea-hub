@@ -97,7 +97,7 @@ git clone <link of your forked repo>
 4. run 'node backend/server.js'
 
 5. Go to 'http://localhost:3000' on your browser
-
+```
 ## License
 This project is licensed under the MIT License.
 

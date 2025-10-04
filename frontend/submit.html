@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Submit Idea Page (phase1)</h1>
+    <h1>Submit Idea Page (phase2)</h1>
     <form action="/submit" method="POST">
         <input type="text" name="title" placeholder="Idea Title" required><br>
-        <textarea name="content" placeholder="Desrcibe your idea" required></textarea><br>
-        <input type="hidden" name="userId" value="1">
+        <textarea name="description" placeholder="Desrcibe your idea" required></textarea><br>
+        <input type="hidden" name="userId" value="{{userId}}">
         <button type="submit">Submit</button>
     </form>
     <nav>

@@ -1,4 +1,44 @@
 {
-    "users":[],
-    "ideas":[]
+  "users": [
+    {
+      "id": 1,
+      "email": "test@1",
+      "password": "$2b$12$ZMMbdiaISNeZ6K8axuFzhen6GFT/ZZ6R3VuprPHG1/53vbKObajtu"
+    },
+    {
+      "id": 2,
+      "email": "test@2",
+      "password": "$2b$12$KuwXxGZZVAKigTiwJKLZMeq.zxJvdkayubWFZGPLYpPBjydE/4rSi"
+    }
+  ],
+  "ideas": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "test idea",
+      "description": "abcxyz",
+      "timestamp": "2025-10-04T11:48:42.295Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "test idea 2",
+      "description": "jqyhwuiorhfifsdaflsan asdksa wkpeopwn l\r\nsd ajkwn \r\nw dfwe\r\n143512\r\n1$u iuhdisA& ii",
+      "timestamp": "2025-10-04T11:55:02.196Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "test idea 3",
+      "description": "skibifhsiahk kwkrqwm \r\nlfdje as\r\n 34124 \r\n$%3 \r\nFEWR\r\nE",
+      "timestamp": "2025-10-04T11:56:06.546Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "TEST IDEA 4",
+      "description": "FOEURHIJAsfjojsofjojO OWjlkfl m&%bJK HS768 ASOK\r\nAS DAWE23\r\n\r\nSD./\\",
+      "timestamp": "2025-10-04T11:57:19.920Z"
+    }
+  ]
 }
